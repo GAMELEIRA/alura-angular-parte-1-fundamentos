@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'frontend';
+
+  fotos = [{
+
+    url: "../assets/imagens/menina-linda.jpg",
+
+    description: "Gatona!"
+
+  }]
+
+
 }
