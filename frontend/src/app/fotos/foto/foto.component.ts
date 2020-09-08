@@ -5,18 +5,10 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './foto.component.html',
   styleUrls: ['./foto.component.css']
 })
-export class FotoComponent implements OnInit {
-
-  title = 'Gata!';
+export class FotoComponent  {
 
   @Input() descricao = "";
 
   @Input() url = "";
-  
-  constructor() { }
-
-  ngOnInit(): void {
-
-  }
 
 }
